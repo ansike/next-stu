@@ -1,4 +1,5 @@
-import { sql } from '@vercel/postgres';
+// import { sql } from '@vercel/postgres';
+import { sql } from './sql-hack';
 import { unstable_noStore as noStore } from 'next/cache';
 import {
   CustomerField,
